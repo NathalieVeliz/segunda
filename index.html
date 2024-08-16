@@ -1,11 +1,197 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Atención Psicológica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style2.css">
 </head>
-<body>
-    
+
+<body class="container-fluid">
+
+    <header class="headerContainer">
+
+        <img src="images/logo.png" alt="logo" class="headerContainer__logo">
+
+        <nav class="headerContainer__nav">
+
+            <ul class="headerContainer__ul">
+
+                <li class="headerContainer__li">
+                    <a href="index.html">Inicio</a>
+                </li>
+
+                <li class="headerContainer__li">
+                    <a href="#sobre">Sobre nosotros</a>
+                </li>
+
+                <li class="headerContainer__li">
+                    <a href="#servicios">Servicios</a>
+                </li>
+
+                <li class="headerContainer__li">
+                    <a href="#contacto">Contacto</a>
+                </li>
+
+                <li class="headerContainer__li">
+                    <a href="#ubicacion">Ubicación</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <section class="headerContainer__slider">
+
+        </section>
+    </header>
+
+    <main class="mainContainer">
+
+        <img src="images/psicologa.jpg" alt="psicologa" class="mainContainer__img">
+
+        <div class="mainContainer__content" id="sobre">
+            <h1>Sobre nosotros</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem est optio beatae officiis quidem,
+                laudantium laborum maxime cumque, quaerat perspiciatis asperiores exercitationem fuga aliquam facere
+                veritatis quae iure sequi consequatur!
+                Maiores illo tempora reprehenderit id tempore, vel aliquid voluptas quo saepe animi! Deleniti eligendi
+                porro provident error, ratione ab dolorem incidunt omnis voluptatum numquam fugiat dolorum obcaecati
+                quibusdam, tempora voluptatem.
+                Corrupti aspernatur hic impedit veniam eum rem eaque consequatur praesentium quod quis fugit incidunt
+                suscipit possimus a quidem, ratione enim molestiae libero. Placeat voluptatem beatae minima autem a
+                natus laudantium.
+                Magni eligendi repellat maiores velit suscipit necessitatibus modi quaerat cupiditate ab, doloribus
+                vitae dicta corrupti quod recusandae aut, tempora deserunt iure exercitationem officiis ad error et.
+                Obcaecati consequuntur voluptatem molestias.</p>
+            
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos eos suscipit dolore fugit amet, itaque animi unde illum consectetur. Magni quod quos itaque asperiores quae a ullam tenetur maiores deserunt. Magni eligendi repellat maiores velit suscipit necessitatibus modi quaerat cupiditate ab, doloribus
+                vitae dicta corrupti quod recusandae aut, tempora deserunt iure exercitationem officiis ad error et.
+                Obcaecati consequuntur voluptatem molestias.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos eos suscipit dolore fugit amet, itaque animi unde illum consectetur. Magni quod quos itaque asperiores quae a ullam tenetur maiores deserunt. Magni eligendi repellat maiores velit suscipit necessitatibus modi quaerat cupiditate ab, doloribus
+                    vitae dicta corrupti quod recusandae aut, tempora deserunt iure exercitationem officiis ad error et.
+                    Obcaecati consequuntur voluptatem molestias.</p>
+        </div>
+
+        <section class="mainContainer__servicios" id="servicios">
+
+            <div class="mainContainer__item">
+                <h2>Servicio 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat magni atque eveniet eum
+                    architecto voluptas, dignissimos eos ex explicabo voluptatibus. Similique deserunt, blanditiis sequi
+                    maiores expedita debitis consectetur voluptas.</p>
+            </div>
+            <div class="mainContainer__item">
+                <h2>Servicio 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat magni atque eveniet eum
+                    architecto voluptas, dignissimos eos ex explicabo voluptatibus. Similique deserunt, blanditiis sequi
+                    maiores expedita debitis consectetur voluptas.</p>
+            </div>
+            <div class="mainContainer__item">
+                <h2>Servicio 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat magni atque eveniet eum
+                    architecto voluptas, dignissimos eos ex explicabo voluptatibus. Similique deserunt, blanditiis sequi
+                    maiores expedita debitis consectetur voluptas.</p>
+            </div>
+
+        </section>
+
+        <!--Uso de bootstrap FORM-->
+
+        <section class="mainContainer__contacto" id="contacto">
+            <h2 class="mainContainer__h2">¿Hablamos? Envíanos un mensaje</h2>
+            <p class="mainContainer__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id animi quisquam ipsa
+                provident, nobis blanditiis fugit eaque error quae quos rerum rem nostrum quaerat inventore reiciendis
+                recusandae tempore iusto necessitatibus!</p>
+            <div class="mainContainer__formulario">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="mb-3">
+
+                    <input type="email" class="form-control" 
+                        placeholder="email@ejemplo.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <button type="button" class="btn btn-info">Enviar</button>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <section class="mainContainer__ubicacion" id="ubicacion">
+            <h2>Ubicación</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.8300736093374!2d-70.40854118764405!3d-23.646255786884375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96afd510b87cd3a3%3A0x48c0dcd59cba7422!2sMall!5e0!3m2!1ses-419!2scl!4v1721182034032!5m2!1ses-419!2scl"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </main>
+
+    <footer class="footerContainer">
+
+        <div class="footerContainer__item">
+            <p class="footerContainer__p">Redes sociales</p>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="footerContainer__link" href="#">Facebook</a>
+                    </li>
+                    <li>
+                        <a class="footerContainer__link" href="#">Instagram</a>
+                    </li>
+                    <li>
+                        <a class="footerContainer__link" href="#">Tiktok</a>
+                    </li>
+                    <li>
+                        <a class="footerContainer__link" href="#">Youtube</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footerContainer__item">
+            <p class="footerContainer__p">Enlaces</p>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="footerContainer__link" href="#inicio">Inicio</a>
+                    </li>
+                    <li>
+                        <a class="footerContainer__link" href="#sobre">Sobre nosotros</a>
+                    </li>
+                    <li>
+                        <a class="footerContainer__link" href="#servicios">Servicios</a>
+                    </li>
+                    <li>
+                        <a class="footerContainer__link" href="#contacto">Contacto</a>
+                    </li>
+                    <li>
+                        <a class="footerContainer__link" href="#ubicacion">Ubicación</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
