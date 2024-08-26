@@ -10,76 +10,37 @@ body {
     
 }
 
+h1{
+    color: #338ba7;
+}
 
-
+h2{
+    color: #845ec2;
+}
 
 /*HEADER, NAV, SLIDER*/
 
 .headerContainer{
     
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 100px auto;
+    width: auto;
     border: 1px solid black;
-}
-
-.headerContainer__logo{
-    height: 100px;
-    width: 100px;
-    padding: 10px 10px;
-    grid-column: 1/2;
-}
-
-.headerContainer__nav {
-    grid-column: 2/4;
     
 }
 
-.headerContainer__ul {
-    list-style: none;
-    overflow: hidden;
-    height: 100%;
-}
-
-.headerContainer__li {
-    margin: 10px 10px;
-    display: inline-block;
-}
-
-
 
 .headerContainer__slider {
-    background-image: url("../images/header.png");
+    
     grid-column: 1/4;
-    height: 300px;
     background-size: 100%;
 }
 
 
 @media only screen and (min-width: 52px) and (max-width: 768px){
 
-    .headerContainer__li {
-        display:none;
-    }
-
-    .headerContainer__slider {
-        background-image:none;
-        height:auto;
-    }
+  
 
     .mainContainer__img{
         display: none;
-    }
-/*
-.mainContainer__item{
-        display: none;
-    }
-*/
-    
-
-    .mainContainer__servicios {
-        flex-flow: row wrap;
-
     }
 
 }
@@ -96,12 +57,19 @@ body {
 }
 
 .mainContainer__img {
-    grid-column: 1/2;
+    border: 1px solid black;
     height: 300px;
 }
 
+
 .mainContainer__content {
-    grid-column: 2/4;
+    grid-column: 1/4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainContainer__sobre {
     padding: 20px;
 }
 
@@ -112,13 +80,23 @@ body {
     grid-column: 1/4;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 10px 10px;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
 }
 
-.mainContainer__item {
-    width: 33%;
+.mainContainer__item{
+    padding: 20px;
 }
+
+@media only screen and (min-width: 52px) and (max-width: 768px){
+
+    .mainContainer__servicios {
+        
+        flex-direction: column;
+    }
+
+}
+
 
 /*Contacto*/
 
@@ -148,7 +126,7 @@ body {
     padding: 10px 10px;
     display: flex;
     justify-content: left;
-    background-color: #61727b;
+    background-color: #338ba7;
 
 }
 
